@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | Starglazer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <main class="auth-container">
+
+        <section class="visual-panel" aria-label="Starglazer branding">
+
+            <div class="visual-content">
+                <span class="eyebrow">
+                    <span class="status-dot"></span>
+                    concert with the stars
+                </span>
+
+                <h1>
+                    The stars waits <br>
+                    for you to <span> stargazing</span>
+                </h1>
+
+                <p class="description">
+                    Elevate your concert eperience with Starglazer, the ultimate companion for music enthusiasts. Discover a world where the stars align with your favorite tunes, creating unforgettable moments under the night sky.
+                </p>
+
+                <!-- ILUSTRASI CSS -->
+                <div class="artwork" aria-hidden="true">
+                    <div class="glow"></div>
+                    <div class="ring ring-one"></div>
+                    <div class="ring ring-two"></div>
+                    <div class="ring ring-three"></div>
+
+                    <div class="orb"></div>
+
+                    <div class="floating-card card-one"></div>
+                    <div class="floating-card card-two"></div>
+                    <div class="floating-card card-three"></div>
+
+                    <span class="star star-one">✳</span>
+                    <span class="star star-two">✦</span>
+                </div>
+
+            </div>
+
+            <span class="panel-caption">
+                A BETTER WAY TO BEGIN
+            </span>
+
+        </section>
+
+        <!-- FORM LOGIN -->
+        <section class="form-panel" aria-labelledby="login-title">
+            
+             <a href="#" class="brand" aria-label="Starglazer home">
+                <span class="brand-icon">s</span>
+                <span>starglazer<span class="purple-dot">.</span>
+            </a>
+    
+
+            <div class="top-link">
+                <span>New to Starglazer?</span>
+                <a href="#">Create account ↗</a>
+            </div>
+
+            <div class="form-wrapper">
+
+                <div class="welcome-icon" aria-hidden="true">
+                    ✳
+                </div>
+
+                <h2 id="login-title">
+                    Welcome back<span class="heading-dot">.</span>
+                </h2>
+
+                <p class="subtitle">
+                    Enter your details to sign in to your account.
+                </p>
+
+                <!-- GOOGLE SIGN IN -->
+               <a href="#" class="google-button">
+                 <img src="https://www.google.com/favicon.ico"
+                     width="19"
+                     height="19"
+                     alt="Google">
+
+                 <span>Sign in with Google</span>
+                </a>
+
+                <!-- DIVIDER -->
+                <div class="divider">
+                    <span></span>
+                    <p>or continue with email</p>
+                    <span></span>
+                </div>
+
+                <!-- LOGIN FORM -->
+                <form action="#" method="post">
+
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="username"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <div class="label-row">
+                            <label for="password">Password</label>
+                            <a href="#" class="forgot-link">
+                                Forgot password?
+                            </a>
+                        </div>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            minlength="8"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-options">
+                        <label class="remember-option" for="remember">
+                            <input
+                                type="checkbox"
+                                id="remember"
+                                name="remember"
+                            >
+                            <span>Remember me</span>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="submit-button">
+                        <span>Sign In</span>
+                        <span class="arrow" aria-hidden="true">↗</span>
+                    </button>
+
+                </form>
+
+                <p class="terms">
+                    By continuing, you agree to our
+                    <a href="#">Terms of Service</a> and
+                    <a href="#">Privacy Policy</a>.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
